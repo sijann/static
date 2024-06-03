@@ -1,3 +1,4 @@
+alert("Hello From Github");
 if (!customElements.get('views-count-component')) {
     customElements.define('views-count-component', class CustomViewsCountComponent extends HTMLElement {
         constructor() {
